@@ -1,8 +1,8 @@
 import React from "react";
 import FoodCard from "./FoodCard";
-import FoodData from "../Data/FoodData";
+import FoodData from "../Data/FoodData.js";
 
-const Fooditems = () => {
+const FoodItems = () => {
   return (
     <div className="flex flex-wrap gap-10 justify-center lg:justify-start mx-6 my-10">
       {FoodData.map((item) => {
@@ -22,4 +22,4 @@ const Fooditems = () => {
   );
 };
 
-export default Fooditems;
+export default FoodItems;
